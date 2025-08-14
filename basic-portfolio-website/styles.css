@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(90deg, #74D7BB, #53C8B6, #35A99C);
+}
+
+.menu {
+    padding: 0.5rem 5rem;
+}
+
+.menu .menu-list {
+    display: flex;
+    list-style: none;
+}
+
+.menu-list-items {
+    padding: 1rem 1rem 2rem;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+a:hover {
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo {
+    padding: 0 3rem;
+    position: absolute;
+    left: 4px;
+}
+
+.logo .logo-heading {
+    color: #fff;
+    font-size: 30px;
+}
+
+.hero {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    margin: 5rem;
+    font-size: 24px;
+    background-image: url(./assets/images/iimage.jpeg);
+    position: relative;
+    left: -80px;
+    top: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero .intro {
+    text-align: center;
+    margin: 0 5rem;
+}
+
+.hero .intro-buttons {
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border: none;
+    background-image: linear-gradient(90deg, #74D7BB, #53C8B6, #35A99C);
+    box-shadow: 2px 2px 2px #35A99C;
+}
+
+.portfolio {
+    margin: 4.8rem 0;
+    padding: 0 5rem;
+}
+
+.my-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.my-col {
+    width: 30%;
+    text-align: center;
+}
+
+.my-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 2px 4px 4px #74D7BB;
+}
+
+.image {
+    img {
+        width: 100%;
+        border-radius: 20px;
+
+    }
+
+
+}
+
+.card-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0.5;
+    padding: 1rem;
+    margin: 1rem;
+    background: darksalmon;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.about-image {
+    width: 50%;
+
+    img {
+        max-width: 96%;
+    }
+}
+
+.contact {
+    display: flex;
+    padding: 1rem;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    margin: 1rem;
+}
+
+.contact-details {
+    margin-left: 1rem;
+}
+
+.details {
+    margin: 1rem;
+}
+
+.form-controls {
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    border: none;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.footer {
+
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    .footer-menu {
+        display: flex;
+    }
+
+    .footer-menu-list {
+        align-items: center;
+        display: flex;
+        gap: 5rem;
+        list-style-type: none;
+        margin: 0 31rem;
+    }
+}
