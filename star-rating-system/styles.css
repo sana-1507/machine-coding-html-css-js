@@ -1,0 +1,30 @@
+.star {
+    color: coral;
+}
+
+.star-figures {
+    font-size: 10vh;
+    color: rgb(218, 19, 158);
+    cursor: pointer;
+}
+
+.one {
+    color: rgb(9, 51, 87);
+}
+
+.two {
+    color: rgb(204, 130, 21);
+
+}
+
+.three {
+    color: rgb(92, 237, 8);
+}
+
+.four {
+    color: rgb(225, 13, 13);
+}
+
+.five {
+    color: rgb(114, 200, 215);
+}

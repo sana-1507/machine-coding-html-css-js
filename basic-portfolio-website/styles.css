@@ -173,7 +173,7 @@ a:hover {
 .contact-form {
     display: flex;
     flex-direction: column;
-    width: 100vh;
+    width: 100dvh;
     margin: 1rem;
 }
 
